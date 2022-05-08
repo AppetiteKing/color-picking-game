@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    font-size: 12px;
+    font-family: 'Radio Canada', sans-serif;
+    font-style: normal;
+    margin: 0
+}
+
+body {
+    background-color: grey;
+    transition:
+    background 0.6s;
+    -webkit-transition:
+    background 0.6s;
+    -moz-transition:
+    background 0.6s;
+}
+
+h1 {
+    font-size: 3rem;
+    background-color: rgb(44, 150, 127);
+    text-align: center;
+    padding: 20px;
+
+    transition:
+    background 0.6s;
+    -webkit-transition:
+    background 0.6s;
+    -moz-transition:
+    background 0.6s;
+}
+
+#title{
+    font-size: 3rem;
+}
+
+#rgb {
+    font-size: 3.5rem;
+}
+
+h2 {
+    margin-top: 15px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+h3{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 200;
+}
+
+#container {
+    padding: 20px ;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+#container::after {
+    content: ' ';
+    display: block;
+    clear: both;
+}
+
+.square {
+    width: 30%;
+    padding-top: 30%;
+    background-color: white;
+    float: left;
+    border-radius: 10%;
+    margin: 1.6%;
+
+    transition:
+    background 0.6s;
+    -webkit-transition:
+    background 0.6s;
+    -moz-transition:
+    background 0.6s;
+}
+
+#button{
+    text-align: center;
+}
+
+button{
+    border:none;
+    background-color: lightgrey;
+    padding: 3%;
+    font-size: 1.5rem;
+    border-radius: 3%;
+}
+
+button:hover{
+    background-color: lightblue;
+}
